@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App{
+  background-image: url("./assets/images1.jpg");
+  background-position: bottom;
+  background-size: cover;
+  transition: 0.4 ease;
+}
+.App.warm{
+  background-image: url("./assets/image2.jpg");
+}
+.searchBox{
+  width: 80%;
+  margin: 0 0 25px;margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+  .searchBox .searchBar{
+    font-size: 13px !important;
+  }
+  .own h4{
+    font-size: 15px !important;
+    margin-top: 20px;
+  }
+}
+.searchBox .searchBar{
+  padding: 15px;
+  box-shadow: 0, 0, 0, 0.2;
+  width: 100%;
+  background: none;
+  appearance: none;
+  font-size: 20px;
+  outline: none;
+  border: none;
+
+  background: rgba(250, 250, 250, 0.8);
+  border-radius: 0 0 16px 16px;
+  margin-top: -50px;
+  box-shadow:0px 5px rgba(0, 0, 0, 0.2);
+}
+main {
+  min-height: 100vh;
+  padding: 15px;
+}
+.own h4{
+  color: gold;
+  text-shadow: 1px 1px rgba(250, 250, 250, 0.8);
+  text-align: right;
+  font-size: 20px;
+}
+.location-Box .location{
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+.location-Box .date{
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+  color: #fff;
+}
+.weatherBox{
+  text-align: center;
+  margin:30px  auto;
+
+  width: 70%;
+}
+.weatherBox .temp{
+  font-size: 70px;
+  color: #fff;
+  background-color: rgba(250, 250, 250, 0.4);
+  border-radius: 20px;
+  position: relative;
+  font-weight: 900;
+  padding: 15px 20px;
+  text-align: center;
+  box-shadow: 3px 6px rgba(250, 250, 250, 0.2);
+  text-shadow:3px 6px rgba(50, 50, 50, 0.5);
+  margin: 50px auto;
+
+}
